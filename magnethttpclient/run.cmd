@@ -1,0 +1,1 @@
+java -cp target/magnethttpclient-1.0-SNAPSHOT.jar com.klangoo.App

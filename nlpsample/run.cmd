@@ -1,0 +1,1 @@
+java -cp target/nlpsample-1.0-SNAPSHOT.jar;../magnethttpclient/target/magnethttpclient-1.0-SNAPSHOT.jar com.klangoo.App

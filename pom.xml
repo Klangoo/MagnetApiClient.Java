@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.klangoo</groupId>
+  <artifactId>magnethttpclient-parent</artifactId>
+  <packaging>pom</packaging>
+  <version>1.0-SNAPSHOT</version>
+  <name>Magnet Http Client Parent POM</name>
+  <url>https://github.com/algolia/MagnetApiClient.Java</url>
+
+  <licenses>
+    <license>
+      <name>The MIT License</name>
+      <url>http://www.opensource.org/licenses/mit-license.php</url>
+      <distribution>repo</distribution>
+    </license>
+  </licenses>
+  <parent>
+    <groupId>org.sonatype.oss</groupId>
+    <artifactId>oss-parent</artifactId>
+    <version>9</version>
+  </parent>
+
+  <scm>
+    <connection>scm:git:git@github.com:Klangoo/MagnetApiClient.Java.git</connection>
+    <url>scm:git:git@github.com:Klangoo/MagnetApiClient.Java.git</url>
+    <developerConnection>scm:git:git@github.com:Klangoo/MagnetApiClient.Java.git</developerConnection>
+    <tag>HEAD</tag>
+  </scm>
+
+  <developers>
+    <developer>
+      <id>klangoo</id>
+      <name>Klangoo Team</name>
+      <email>support@klangoo.com</email>
+      <url>https://github.com/Klangoo/MagnetApiClient.Java</url>
+    </developer>
+  </developers>
+  
+  <dependencies>
+    <dependency>
+      <groupId>junit</groupId>
+      <artifactId>junit</artifactId>
+      <version>3.8.1</version>
+      <scope>test</scope>
+    </dependency>
+  </dependencies>
+  <modules>
+	<module>magnethttpclient</module>
+    <module>nlpsample</module>
+    <module>newsagencysample</module>
+  </modules>
+</project>
