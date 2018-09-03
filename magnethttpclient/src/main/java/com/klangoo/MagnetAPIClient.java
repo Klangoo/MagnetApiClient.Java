@@ -31,14 +31,6 @@ import javax.crypto.Mac;
 import javax.crypto.spec.SecretKeySpec;
 
 
-/**
- *      Example:
- *      
- *		MagnetAPIClient magnetAPIClient = new MagnetAPIClient(ENDPOINT_URI, CALK, SECRET_KEY);
- *		Map<String, String> request = new HashMap<String, String>();
- *		request.put("text", "Hello World");
- *		String response = magnetAPIClient.CallWebMethod("ProcessDocument", request, "POST");
- */
 public class MagnetAPIClient {
 	
 	private String _endpointUri;

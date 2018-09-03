@@ -6,12 +6,12 @@
   <parent>
     <groupId>com.klangoo</groupId>
     <artifactId>magnethttpclient-parent</artifactId>
-    <version>1.0-SNAPSHOT</version>
+    <version>1.0.0</version>
     <relativePath>../pom.xml</relativePath>
   </parent>
 
   <artifactId>magnethttpclient</artifactId>
-  <version>1.0-SNAPSHOT</version>
+  <version>1.0.0</version>
   <name>magnethttpclient</name>
 
   <dependencies>
