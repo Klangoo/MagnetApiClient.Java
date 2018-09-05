@@ -4,6 +4,17 @@
 
 ## Install
 
+### Install  with Maven:
+Add the following dependency to your pom.xml file:
+
+```xml
+<dependency>
+  <groupId>com.klangoo</groupId>
+  <artifactId>magnethttpclient</artifactId>
+  <version>1.0.0</version>
+</dependency>
+```
+
 ### Install  manually:
 Download and add to your project the file [MagnetAPIClient.java](https://github.com/Klangoo/MagnetApiClient.Java/blob/master/magnethttpclient/src/main/java/com/klangoo/MagnetAPIClient.java)
 
